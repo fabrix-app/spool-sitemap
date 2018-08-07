@@ -1,6 +1,6 @@
 {
   "name": "@fabrix/spool-sitemap",
-  "version": "1.1.0-alpha.1",
+  "version": "1.1.0",
   "description": "Sitemap - Spool for Fabrix to generate Sitemaps through a common API",
   "homepage": "https://fabrix.app",
   "author": {
