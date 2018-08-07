@@ -1,0 +1,1 @@
+export { SitemapsCron } from './SitemapsCron'

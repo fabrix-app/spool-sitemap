@@ -1,0 +1,1 @@
+export { sitemapConfig } from './sitemapConfig'
