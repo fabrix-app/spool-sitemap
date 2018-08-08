@@ -1,15 +1,18 @@
+import { FabrixApp } from '@fabrix/fabrix'
 import { FabrixGeneric } from '@fabrix/fabrix/dist/common'
 import { difference } from 'lodash'
 
 export class Sitemap extends FabrixGeneric {
+  public app: FabrixApp
+
   constructor (app) {
     super(app)
 
     Object.defineProperties(this, {
-      app: {
-        enumerable: false,
-        value: app
-      },
+      // app: {
+      //   enumerable: false,
+      //   value: app
+      // },
       build: {
         enumerable: false,
         value: function() {
