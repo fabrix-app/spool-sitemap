@@ -65,7 +65,7 @@ const App = {
         eject: 100000
       }
     },
-    engine: {
+    crons: {
       live_mode: false,
       profile: 'test'
     },
