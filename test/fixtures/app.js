@@ -40,7 +40,7 @@ const App = {
         require('@fabrix/spool-express').ExpressSpool,
         require('@fabrix/spool-sequelize').SequelizeSpool,
         require('@fabrix/spool-caches').CachesSpool,
-        require('@fabrix/spool-engine').EngineSpool,
+        require('@fabrix/spool-crons').CronsSpool,
         require('../../dist').SitemapSpool // spool-sitemap
       ]
     },
